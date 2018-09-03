@@ -149,6 +149,7 @@ TINYARALIBS += $(LIBRARIES_DIR)$(DELIM)libiotjs$(LIBEXT)
 TINYARALIBS += $(LIBRARIES_DIR)$(DELIM)libjerry-core$(LIBEXT)
 TINYARALIBS += $(LIBRARIES_DIR)$(DELIM)libtuv$(LIBEXT)
 TINYARALIBS += $(LIBRARIES_DIR)$(DELIM)libjerry-libm$(LIBEXT)
+TINYARALIBS += $(LIBRARIES_DIR)$(DELIM)libjerry-ext$(LIBEXT)
 endif
 
 # Add library for external bcm support.

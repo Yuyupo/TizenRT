@@ -235,6 +235,9 @@ $(LIBRARIES_DIR)$(DELIM)libtuv$(LIBEXT): $(EXTDIR)$(DELIM)iotjs$(DELIM)libtuv$(L
 
 $(LIBRARIES_DIR)$(DELIM)libjerry-libm$(LIBEXT): $(EXTDIR)$(DELIM)iotjs$(DELIM)libjerry-libm$(LIBEXT)
 	$(Q) install $(EXTDIR)$(DELIM)iotjs$(DELIM)libjerry-libm$(LIBEXT) $(LIBRARIES_DIR)$(DELIM)libjerry-libm$(LIBEXT)
+
+$(LIBRARIES_DIR)$(DELIM)libjerry-ext$(LIBEXT): $(EXTDIR)$(DELIM)libjerry-ext$(LIBEXT)
+	$(Q) install $(EXTDIR)$(DELIM)libjerry-ext$(LIBEXT) $(LIBRARIES_DIR)$(DELIM)libjerry-ext$(LIBEXT)
 endif
 
 # Possible non-kernel builds
